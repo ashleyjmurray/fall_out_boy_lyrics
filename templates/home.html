@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+            <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <br>
+            <h1 style="font-family: Nunito; font-size: 40px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 20px; text-align: center;">Fall Out Boy Song Maker</h1>
+        <style>
+        
+        
+        #submit {
+            background-color: #e56eff;
+            font-weight: bold;
+            border: transparent;
+            text-align: center;
+            border-radius: 20px;
+            width: 250px;
+            color: white;
+            height: 50px;
+        }
+            </style>
+            
+        </head>
+
+<body style="background-color:#FEE1E8; ">
+<br>
+<div style="text-align:center;">
+    
+    <p style="font-size: 0.9rem;font-style: italic;"><img style="width:50%;display: center;" src="https://live.staticflickr.com/3367/3570358617_16281b9af1_b.jpg" alt="Fall Out Boy">
+        <br>
+        <a href="https://www.flickr.com/photos/38821962@N03/3570358617">"Fall Out Boy"</a><span> by <a href="https://www.flickr.com/photos/38821962@N03">Freedom To Marry</a></span> is licensed under <a href="undefined?ref=openverse&atype=html" style="margin-right: 5px;"></a><a href="undefined?ref=openverse&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=5bb8175f-1aaf-4e5b-866d-7a331aaaac4c" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a></p>
+
+<br>
+<form style="font-family: Nunito; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;color:rgba(255,255,255, 0.5);"action="" method="post">
+    {{ form.csrf_token }}
+   <p>{{ form.submit() }}</p>
+</form>
+</div>
+
+</body>
+
+</html>
